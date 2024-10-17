@@ -1,0 +1,14 @@
+<section class="container">
+    <div class="field">
+        <label for="url">URL:</label>
+        <input type="text" placeholder="Youtube's URL" name="url">\
+    </div>
+    <div class="field">
+        <label for="format">Format:</label>
+        <select name="format">
+            <option value="mp3" *ngFor="let i of AudioformatOptions">
+                {{i}}
+            </option>
+        </select>
+    </div>
+</section>

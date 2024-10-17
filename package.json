@@ -1,0 +1,13 @@
+{
+  "name": "Ghost-youtube-video-converter",
+  "version": "1.0.0",
+  "description": "youtube converter",
+  "main": "index.js",
+  "repository": "https://github.com/Cotbert2/Ghost-youtube-video-converter.git",
+  "author": "Cotbert2 <mateojgdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^33.0.1",
+    "youtube-dl-exec": "^3.0.10"
+  }
+}

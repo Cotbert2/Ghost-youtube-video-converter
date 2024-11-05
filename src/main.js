@@ -11,7 +11,7 @@ const createWindow = () => {
     })
 //open dev tools
     win.webContents.openDevTools();
-    win.loadFile('index.html')
+    win.loadURL('http://localhost:4200');//TODO: delte in production
 }
 
 

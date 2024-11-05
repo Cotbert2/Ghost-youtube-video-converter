@@ -7,6 +7,9 @@
   "repository": "https://github.com/Cotbert2/Ghost-youtube-video-converter.git",
   "author": "Cotbert2 <mateojgdev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "electron": "^33.0.2",

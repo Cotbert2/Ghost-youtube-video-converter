@@ -1,0 +1,37 @@
+.main-operations {
+    width: 100%;
+    height: 50vh;
+    background: radial-gradient(circle, #64307D, #0F2959, #000C2B);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.legend{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.download-button{
+    cursor: pointer;
+    color: #05F29B;
+}
+
+#format{
+    background-color: #05F29B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+#input-url{
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+

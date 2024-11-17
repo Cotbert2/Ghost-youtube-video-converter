@@ -5,10 +5,14 @@ import { ContentComponent } from "./content/content.component";
 import { FooterComponent } from './footer/footer.component';
 import { UrlDownloaderComponent } from "./content/url-downloader/url-downloader.component";
 
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, ContentComponent, UrlDownloaderComponent],
+  imports: [FooterComponent, HeaderComponent, ContentComponent,
+    FormsModule,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

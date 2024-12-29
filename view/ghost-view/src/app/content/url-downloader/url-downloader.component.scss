@@ -1,0 +1,46 @@
+.main-operations {
+    width: 100%;
+    height: 50vh;
+    background: radial-gradient(circle, #64307D, #0F2959, #000C2B);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.legend{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 2rem;
+
+    margin-top: 4rem;
+}
+
+.download-button{
+    cursor: pointer;
+    color: #05F29B;
+    margin: 1rem;
+}
+
+#format{
+    background-color: #05F29B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+#input-url{
+    background-color: rgba(192, 65, 65, 0);
+    border-radius: .5rem;
+    border: 1px solid #05F29B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-right: .5rem;
+}
+
+
+

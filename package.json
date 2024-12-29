@@ -1,20 +1,35 @@
 {
   "name": "Ghost-youtube-video-converter",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "description": "youtube converter",
   "main": "index.js",
   "repository": "https://github.com/Cotbert2/Ghost-youtube-video-converter.git",
   "author": "Cotbert2 <mateojgdev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ./src/main.js"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "electron": "^33.0.2",
-    "express": "^4.21.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "express": "^4.21.2",
     "morgan": "^1.10.0",
     "youtube-dl-exec": "^3.0.10"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron-forge/publisher-github": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "33.2.1"
   }
 }
